@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css?family=Tangerine");
+        html{
+            font-family: 'Tangerine', serif;
+            background-color: aliceblue;
+        }
+        h1{
+            font-weight:bold;
+        }</style>
+</head>
+<body>
+    <form action="#">
+        <div>
+            <label for="range">Range: </label>
+            <input type="range" name="volume" min="0" max="100" value="0"/>
+        </div>
+        <br>
+        <div>
+            <label for="birthdate">birthdate: </label>
+            <input type="date" name="birthdate"/>
+        </div>
+        <br/>
+        <div>
+            <label for="appointmentTime">appointmentTime</label>
+            <input type="time" name="appointmentTime">
+        </div>
+        <br/>
+        <div>
+            <label for="favoriteColor">favoriteColor</label>
+            <input type="color" name="favoriteColor">
+        </div>
+        <br/>
+        <div>
+            <label for="website">website</label>
+            <input type="url" name="website" placeholder="Enter website url">
+        </div>
+        <br/>
+        <div>
+            <label for="searchQuery">searchQuery</label>
+            <input type="search" name="searchQuery" placeholder="search...">
+        </div>
+        <br/>
+        <div>
+            <label for="expirydate">Month & year: </label>
+            <input type="month" name="expiryDate">
+        </div>
+        <br/>
+        <div>
+            <label for="week">vacationWeek: </label>
+            <input type="week" name="vacationWeek">
+        </div>
+        <br/>
+        <fieldset>
+            <legend>Personal Info</legend>
+            <div>
+            <label for="appointmentTime">appointmentTime</label>
+            <input type="time" name="appointmentTime">
+            </div>
+            <div>
+                <label for="week">vacationWeek: </label>
+                <input type="week" name="vacationWeek">
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>

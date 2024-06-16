@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url("https://fonts.googleapis.com/css?family=Tangerine");
+    html{
+        font-family: 'Tangerine', serif;
+        background-color: aliceblue;
+    }
+    h1{
+        font-weight:bold;
+    }
+    li{
+        text-transform: capitalize;
+    }
+</style>
+<body>
+    <h1>The list tag</h1>
+    <ul style="list-style-type:none"><!--Inline css-->
+        <li>apple</li>
+        <li>banana</li>
+        <li>mango</li>
+    </ul>
+    <hr>
+    <ol style="list-style-type:decimal"><!--Inline css-->
+        <li>1st class</li>
+        <li>2nd class</li>
+        <li>3rd class</li>
+    </ol>
+    <ol type="a"><!--type attribute-->
+        <li>blue</li>
+        <li>green</li>
+        <li>yellow</li>
+    </ol>
+     <ol start="10">
+        <li>blue</li>
+        <li>green</li>
+        <li>yellow</li>
+     </ol>
+     <ul>
+        <li>fruits
+            <ol>
+                <li>Banana</li>
+                <li>Apple
+                    <ul>
+                        <li>Green</li>
+                        <li>red</li>
+                    </ul>
+                </li>
+                <li>Mango</li>
+            </ol>
+        </li>
+        <li>vegetables</li>
+        <li>meats</li>
+     </ul>
+     <ul style="list-style:none;display:flex; gap:15px">
+        <li><a href="https://www.youtube.com/watch?v=qz0aGYrrlhU">Home</a></li>
+        <li>About</li>
+        <li>Service</li>
+        <li>Contact</li>
+     </ul>
+</body>
+</html>
